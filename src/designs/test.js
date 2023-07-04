@@ -10,9 +10,9 @@ const sketch = (p) => {
   }
   
   p.draw = () => {
-    p.background(255);
+    p.background(230, 220, 220);
     p.fill(0);
-    p.point(canvasW / 2, canvasH / 2)
+    p.circle(canvasW / 2, canvasH / 2, 100)
   }
 }
 
