@@ -1,6 +1,6 @@
 import './style.css'
 import wrapper from './wrapper'
-import box from './designs/test'
+import changingShapes from './designs/changingShapes'
 
 // title
 const title = document.createElement('h1')
@@ -12,9 +12,7 @@ function component () {
   const el = document.createElement('div')
   el.setAttribute('id', 'container')
 
-  wrapper(el, box, "test")
-  
-  // el.appendChild(box)
+  wrapper(el, changingShapes, "shapes changing on mouse position");
 
   return el;
 }
